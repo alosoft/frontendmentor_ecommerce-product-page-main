@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Frontend Mentor | E-commerce product page</title>
+
+
+  </head>
+
+  <body>
+
+    <div class="navbar">
+      <div class="mobile_menu">
+        <ul class="mobile_menu__bars">
+          <li class="mobile_menu__bar"></li>
+          <li class="mobile_menu__bar"></li>
+          <li class="mobile_menu__bar"></li>
+        </ul>
+      </div>
+      <div class="mobile_menu__backdrop">
+        <div class="mobile_menu__dialog">
+          <div class="mobile_nav">
+            <ul class="mobile_nav__links">
+              <li class="mobile_nav__link mobile-close"><a href="#">x</a></li>
+              <li class="mobile_nav__link"><a href="#">Collections</a></li>
+              <li class="mobile_nav__link"><a href="#">Men</a></li>
+              <li class="mobile_nav__link"><a href="#">Women</a></li>
+              <li class="mobile_nav__link"><a href="#">About</a></li>
+              <li class="mobile_nav__link"><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="logo">
+        <img src="images/logo.svg" alt="logo">
+      </div>
+      <div class="nav">
+        <ul class="nav__links">
+          <li class="nav__link"><a href="#">Collections</a></li>
+          <li class="nav__link"><a href="#">Men</a></li>
+          <li class="nav__link"><a href="#">Women</a></li>
+          <li class="nav__link"><a href="#">About</a></li>
+          <li class="nav__link"><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="actions">
+        <div class="actions__cart">
+          <img src="images/icon-cart.svg" alt="cart">
+          <div class="cart__badge">
+            <p class="cart__count">0</p>
+          </div>
+        </div>
+        <div class="actions__cart-box">
+          <div class="action__cart-head">
+            <p>Cart</p>
+            <p class="action__close">x</p>
+          </div>
+          <div class="action__cart-body">
+            <p>Your cart is empty</p>
+            <div class="cart__item">
+              <div class="cart__item_image">
+                <img src="images/image-product-1-thumbnail.jpg" alt="cart item image">
+              </div>
+              <div class="cart__item__details">
+                <p>Fall Limited Edition Sneakers</p>
+                <p>$125.00 x <span class="cart__item_count">3</span>
+                  <span class="cart__item__amount">$375.00</span>
+                </p>
+              </div>
+              <div class="cart__item_remove">
+                <img src="images/icon-delete.svg" alt="remove from cart">
+              </div>
+            </div>
+            <button class="checkout">Checkout</button>
+          </div>
+        </div>
+        <div class="actions__profile">
+          <img src="images/image-avatar.png" alt="profile image">
+        </div>
+      </div>
+    </div>
+    <section class="product">
+      <div class="product__preview">
+        <div class="product__preview-main">
+          <img class="product__preview_image" src="images/image-product-1.jpg" alt="">
+        </div>
+        <div class="product__preview-thumbnails">
+          <ul class="product__preview-thumbnails__items">
+            <li class="product__preview-thumbnails__item thumbnail-active">
+              <img src="images/image-product-1-thumbnail.jpg" alt="thumbnail-1">
+              <div class="thumbnail-overlay"></div>
+            </li>
+            <li class="product__preview-thumbnails__item">
+              <img src="images/image-product-2-thumbnail.jpg" alt="thumbnail-2">
+              <div class=""></div>
+            </li>
+            <li class="product__preview-thumbnails__item">
+              <img src="images/image-product-3-thumbnail.jpg" alt="thumbnail-3">
+              <div class=""></div>
+            </li>
+            <li class="product__preview-thumbnails__item">
+              <img src="images/image-product-4-thumbnail.jpg" alt="thumbnail-4">
+              <div class=""></div>
+            </li>
+          </ul>
+        </div>
+        <div class="left">
+          <span><</span>
+        </div>
+        <div class="right">
+          <span>></span>
+        </div>
+      </div>
+      <div class="product__details">
+        <h4>Sneaker Company</h2>
+          <h3 class="product__details-title">Fall Limited Edition <br>Sneakers</h3>
+          <p class="product__details-description">These low-profile sneakers are your perfect casual wear <br>companion.
+            Featuring a
+            durable rubber outer sole, they’ll <br>withstand everything the weather can offer.
+          </p>
+          <div class="product__detail">
+            <div class="product__details-price">
+              <p class="product__details-price-amount">$125.00</p>
+              <p class="product__details-price-discount">50%</p>
+            </div>
+            <p class="product__details-oldprice">$250.00</p>
+          </div>
+          <div class="product__details-cart__actions">
+            <div class="product__details-cart__action">
+              <span class="sub">-</span>
+              <span class="count"> 0 </span>
+              <span class="add">+</span>
+            </div>
+            <button class="add_to_cart">
+              <span>
+                <img class="button_image" src="images/icon-cart.svg" alt="add to cart image">
+              </span>
+              Add to cart
+            </button>
+          </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+
+</html>
