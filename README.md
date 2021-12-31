@@ -34,7 +34,6 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Sneaker Website](https://alosoft.github.io/frontendmentor_ecommerce-product-page-main/ecommerce-product-page-main/)
 
 ## My process
