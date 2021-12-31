@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./sneaker_website.png)
+![](./ecommerce-product-page-main/sneaker_website.png)
 
 
 ### Links
